@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 09 Nov 2026 pada 03.50
+-- Waktu pembuatan: 09 Nov 2026 pada 03.59
 -- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.2.12
 
@@ -236,7 +236,7 @@ INSERT INTO `wpl_options` (`option_id`, `option_name`, `option_value`, `autoload
 INSERT INTO `wpl_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
 (139, '_site_transient_timeout_php_check_da775d00ae55849f14f81cf79fc50d46', '1794726012', 'off'),
 (140, '_site_transient_php_check_da775d00ae55849f14f81cf79fc50d46', 'a:5:{s:19:\"recommended_version\";s:3:\"8.3\";s:15:\"minimum_version\";s:3:\"7.4\";s:12:\"is_supported\";b:0;s:9:\"is_secure\";b:1;s:13:\"is_acceptable\";b:1;}', 'off'),
-(142, '_site_transient_timeout_community-events-d41d8cd98f00b204e9800998ecf8427e', '1794235547', 'off'),
+(142, '_site_transient_timeout_community-events-d41d8cd98f00b204e9800998ecf8427e', '1794235959', 'off'),
 (143, '_site_transient_community-events-d41d8cd98f00b204e9800998ecf8427e', 'a:4:{s:9:\"sandboxed\";b:0;s:5:\"error\";N;s:8:\"location\";a:1:{s:2:\"ip\";b:0;}s:6:\"events\";a:2:{i:0;a:10:{s:4:\"type\";s:8:\"wordcamp\";s:5:\"title\";s:58:\"WordPress Campus Connect SMK Tunas Pembangunan 2 Surakarta\";s:3:\"url\";s:58:\"https://events.wordpress.org/campusconnect/2026/smktp2ska/\";s:6:\"meetup\";s:0:\"\";s:10:\"meetup_url\";s:0:\"\";s:4:\"date\";s:19:\"2026-11-25 00:00:00\";s:8:\"end_date\";s:19:\"2026-11-25 00:00:00\";s:20:\"start_unix_timestamp\";i:1795539600;s:18:\"end_unix_timestamp\";i:1795539600;s:8:\"location\";a:4:{s:8:\"location\";s:20:\"Surakarta, Indonesia\";s:7:\"country\";s:2:\"ID\";s:8:\"latitude\";d:-7.5518735;s:9:\"longitude\";d:110.8112239;}}i:1;a:10:{s:4:\"type\";s:8:\"wordcamp\";s:5:\"title\";s:49:\"WordPress Campus Connect Universitas Putra Bangsa\";s:3:\"url\";s:52:\"https://events.wordpress.org/campusconnect/2026/upb/\";s:6:\"meetup\";s:0:\"\";s:10:\"meetup_url\";s:0:\"\";s:4:\"date\";s:19:\"2026-11-28 00:00:00\";s:8:\"end_date\";s:19:\"2026-11-28 00:00:00\";s:20:\"start_unix_timestamp\";i:1795798800;s:18:\"end_unix_timestamp\";i:1795798800;s:8:\"location\";a:4:{s:8:\"location\";s:18:\"Kebumen, Indonesia\";s:7:\"country\";s:2:\"ID\";s:8:\"latitude\";d:-7.6760082;s:9:\"longitude\";d:109.6466944;}}}}', 'off'),
 (144, 'can_compress_scripts', '1', 'on'),
 (147, '_site_transient_timeout_feed_mod_9bbd59226dc36b9b26cd43f15694c5c3', '1794214218', 'off'),
@@ -312,7 +312,7 @@ INSERT INTO `wpl_options` (`option_id`, `option_name`, `option_value`, `autoload
 (322, '_site_transient_kirki_googlefonts_4347b5bbc16ca4d6e6b9000966ba73a2', 'a:4:{i:0;s:6:\"Roboto\";i:1;s:9:\"Open Sans\";i:2;s:6:\"Oxygen\";i:3;s:21:\"Encode Sans Condensed\";}', 'off'),
 (326, '_site_transient_timeout_kirki_googlefont_names_cache', '1794195558', 'off'),
 (327, '_site_transient_kirki_googlefont_names_cache', 'a:4:{i:0;s:6:\"Roboto\";i:1;s:9:\"Open Sans\";i:2;s:6:\"Oxygen\";i:3;s:21:\"Encode Sans Condensed\";}', 'off'),
-(328, 'newsx_options', 'a:1:{s:10:\"logo_width\";a:1:{s:7:\"desktop\";s:3:\"140\";}}', 'on'),
+(328, 'newsx_options', 'a:2:{s:10:\"logo_width\";a:1:{s:7:\"desktop\";s:3:\"140\";}s:19:\"header_social_icons\";a:5:{i:0;a:2:{s:26:\"header_social_icons_select\";s:10:\"facebook-f\";s:23:\"header_social_icons_url\";s:1:\"#\";}i:1;a:2:{s:26:\"header_social_icons_select\";s:9:\"x-twitter\";s:23:\"header_social_icons_url\";s:1:\"#\";}i:2;a:2:{s:26:\"header_social_icons_select\";s:16:\"instagram-square\";s:23:\"header_social_icons_url\";s:38:\"https://www.instagram.com/zullpuadill/\";}i:3;a:2:{s:26:\"header_social_icons_select\";s:11:\"pinterest-p\";s:23:\"header_social_icons_url\";s:1:\"#\";}i:4;a:2:{s:26:\"header_social_icons_select\";s:7:\"youtube\";s:23:\"header_social_icons_url\";s:1:\"#\";}}}', 'on'),
 (329, '_transient_newsx_admin_notice_welcome', '1', 'on'),
 (330, 'nav_menu_options', 'a:2:{i:0;b:0;s:8:\"auto_add\";a:0:{}}', 'off');
 
@@ -434,7 +434,14 @@ INSERT INTO `wpl_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALU
 (168, 67, '_menu_item_target', ''),
 (169, 67, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
 (170, 67, '_menu_item_xfn', ''),
-(171, 67, '_menu_item_url', '');
+(171, 67, '_menu_item_url', ''),
+(173, 68, '_wp_trash_meta_status', 'publish'),
+(174, 68, '_wp_trash_meta_time', '1794193063'),
+(175, 69, '_edit_lock', '1794193120:1'),
+(176, 69, '_wp_trash_meta_status', 'publish'),
+(177, 69, '_wp_trash_meta_time', '1794193124'),
+(178, 70, '_wp_trash_meta_status', 'publish'),
+(179, 70, '_wp_trash_meta_time', '1794193137');
 
 -- --------------------------------------------------------
 
@@ -541,7 +548,10 @@ INSERT INTO `wpl_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `pos
 (64, 1, '2026-11-09 02:47:05', '2026-11-09 02:47:05', '{\n    \"sidebars_widgets[header-offcanvas]\": {\n        \"value\": [\n            \"block-8\",\n            \"block-9\",\n            \"block-10\"\n        ],\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2026-11-09 02:47:05\"\n    },\n    \"widget_block[8]\": {\n        \"value\": {\n            \"raw_instance\": {\n                \"content\": \"<!-- wp:paragraph -->\\n<p>Beranda</p>\\n<!-- /wp:paragraph -->\"\n            }\n        },\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2026-11-09 02:47:05\"\n    },\n    \"widget_block[9]\": {\n        \"value\": {\n            \"raw_instance\": {\n                \"content\": \"<!-- wp:paragraph -->\\n<p>About Me</p>\\n<!-- /wp:paragraph -->\"\n            }\n        },\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2026-11-09 02:47:05\"\n    },\n    \"widget_block[10]\": {\n        \"value\": {\n            \"raw_instance\": {\n                \"content\": \"<!-- wp:paragraph -->\\n<p>Contact Us</p>\\n<!-- /wp:paragraph -->\"\n            }\n        },\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2026-11-09 02:47:05\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', 'f320282c-f97b-4db7-bfc7-cc2778e1e389', '', '', '2026-11-09 02:47:05', '2026-11-09 02:47:05', '', 0, 'http://localhost/literasi/2026/11/09/f320282c-f97b-4db7-bfc7-cc2778e1e389/', 0, 'customize_changeset', '', 0),
 (65, 1, '2026-11-09 02:49:57', '2026-11-09 02:49:57', ' ', '', '', 'publish', 'closed', 'closed', '', '65', '', '', '2026-11-09 02:49:57', '2026-11-09 02:49:57', '', 0, 'http://localhost/literasi/?p=65', 1, 'nav_menu_item', '', 0),
 (66, 1, '2026-11-09 02:49:57', '2026-11-09 02:49:57', ' ', '', '', 'publish', 'closed', 'closed', '', '66', '', '', '2026-11-09 02:49:57', '2026-11-09 02:49:57', '', 0, 'http://localhost/literasi/?p=66', 2, 'nav_menu_item', '', 0),
-(67, 1, '2026-11-09 02:49:57', '2026-11-09 02:49:57', ' ', '', '', 'publish', 'closed', 'closed', '', '67', '', '', '2026-11-09 02:49:57', '2026-11-09 02:49:57', '', 0, 'http://localhost/literasi/?p=67', 3, 'nav_menu_item', '', 0);
+(67, 1, '2026-11-09 02:49:57', '2026-11-09 02:49:57', ' ', '', '', 'publish', 'closed', 'closed', '', '67', '', '', '2026-11-09 02:49:57', '2026-11-09 02:49:57', '', 0, 'http://localhost/literasi/?p=67', 3, 'nav_menu_item', '', 0),
+(68, 1, '2026-11-09 02:57:42', '2026-11-09 02:57:42', '{\n    \"newsx_options[header_social_icons]\": {\n        \"value\": \"%5B%7B%22header_social_icons_select%22:%22facebook-f%22,%22header_social_icons_url%22:%22#%22,%22header_social_icons_label%22:%22%22%7D,%7B%22header_social_icons_select%22:%22x-twitter%22,%22header_social_icons_url%22:%22#%22,%22header_social_icons_label%22:%22%22%7D,%7B%22header_social_icons_select%22:%22instagram-square%22,%22header_social_icons_url%22:%22#https://www.instagram.com/zullpuadill/%22,%22header_social_icons_label%22:%22%22%7D,%7B%22header_social_icons_select%22:%22pinterest-p%22,%22header_social_icons_url%22:%22#%22,%22header_social_icons_label%22:%22%22%7D,%7B%22header_social_icons_select%22:%22youtube%22,%22header_social_icons_url%22:%22#%22,%22header_social_icons_label%22:%22%22%7D%5D\",\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2026-11-09 02:57:42\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '6e5784e0-4ed1-4176-a19c-86b18c7a889f', '', '', '2026-11-09 02:57:42', '2026-11-09 02:57:42', '', 0, 'http://localhost/literasi/2026/11/09/6e5784e0-4ed1-4176-a19c-86b18c7a889f/', 0, 'customize_changeset', '', 0),
+(69, 1, '2026-11-09 02:58:44', '2026-11-09 02:58:44', '{\n    \"newsx_options[header_social_icons]\": {\n        \"value\": \"%5B%7B%22header_social_icons_select%22:%22facebook-f%22,%22header_social_icons_url%22:%22#%22,%22header_social_icons_label%22:%22%22%7D,%7B%22header_social_icons_select%22:%22x-twitter%22,%22header_social_icons_url%22:%22#%22,%22header_social_icons_label%22:%22%22%7D,%7B%22header_social_icons_select%22:%22instagram-square%22,%22header_social_icons_url%22:%22#https://www.instagram.com/zullpuadill/%22,%22header_social_icons_label%22:%22%22%7D,%7B%22header_social_icons_select%22:%22pinterest-p%22,%22header_social_icons_url%22:%22#%22,%22header_social_icons_label%22:%22%22%7D,%7B%22header_social_icons_select%22:%22youtube%22,%22header_social_icons_url%22:%22#%22,%22header_social_icons_label%22:%22%22%7D%5D\",\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2026-11-09 02:58:40\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '43cfd052-9723-4e10-bf85-c528151f5f42', '', '', '2026-11-09 02:58:44', '2026-11-09 02:58:44', '', 0, 'http://localhost/literasi/?p=69', 0, 'customize_changeset', '', 0),
+(70, 1, '2026-11-09 02:58:57', '2026-11-09 02:58:57', '{\n    \"newsx_options[header_social_icons]\": {\n        \"value\": \"%5B%7B%22header_social_icons_select%22:%22facebook-f%22,%22header_social_icons_url%22:%22#%22,%22header_social_icons_label%22:%22%22%7D,%7B%22header_social_icons_select%22:%22x-twitter%22,%22header_social_icons_url%22:%22#%22,%22header_social_icons_label%22:%22%22%7D,%7B%22header_social_icons_select%22:%22instagram-square%22,%22header_social_icons_url%22:%22https://www.instagram.com/zullpuadill/%22,%22header_social_icons_label%22:%22%22%7D,%7B%22header_social_icons_select%22:%22pinterest-p%22,%22header_social_icons_url%22:%22#%22,%22header_social_icons_label%22:%22%22%7D,%7B%22header_social_icons_select%22:%22youtube%22,%22header_social_icons_url%22:%22#%22,%22header_social_icons_label%22:%22%22%7D%5D\",\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2026-11-09 02:58:57\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', 'b606c918-b94a-4e71-97a7-8af3a5155143', '', '', '2026-11-09 02:58:57', '2026-11-09 02:58:57', '', 0, 'http://localhost/literasi/2026/11/09/b606c918-b94a-4e71-97a7-8af3a5155143/', 0, 'customize_changeset', '', 0);
 
 -- --------------------------------------------------------
 
@@ -861,13 +871,13 @@ ALTER TABLE `wpl_options`
 -- AUTO_INCREMENT untuk tabel `wpl_postmeta`
 --
 ALTER TABLE `wpl_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=173;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=180;
 
 --
 -- AUTO_INCREMENT untuk tabel `wpl_posts`
 --
 ALTER TABLE `wpl_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=68;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=71;
 
 --
 -- AUTO_INCREMENT untuk tabel `wpl_termmeta`
