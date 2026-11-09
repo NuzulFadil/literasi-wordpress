@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 09 Nov 2026 pada 03.42
+-- Waktu pembuatan: 09 Nov 2026 pada 03.50
 -- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.2.12
 
@@ -211,8 +211,8 @@ INSERT INTO `wpl_options` (`option_id`, `option_name`, `option_value`, `autoload
 (104, 'fresh_site', '0', 'off'),
 (105, 'WPLANG', 'id_ID', 'auto'),
 (106, 'user_count', '1', 'off'),
-(107, 'widget_block', 'a:6:{i:2;a:1:{s:7:\"content\";s:19:\"<!-- wp:search /-->\";}i:3;a:1:{s:7:\"content\";s:157:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Pos-pos Terbaru</h2><!-- /wp:heading --><!-- wp:latest-posts /--></div><!-- /wp:group -->\";}i:4;a:1:{s:7:\"content\";s:228:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Komentar Terbaru</h2><!-- /wp:heading --><!-- wp:latest-comments {\"displayAvatar\":false,\"displayDate\":false,\"displayExcerpt\":false} /--></div><!-- /wp:group -->\";}i:5;a:1:{s:7:\"content\";s:143:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Arsip</h2><!-- /wp:heading --><!-- wp:archives /--></div><!-- /wp:group -->\";}i:6;a:1:{s:7:\"content\";s:148:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Kategori</h2><!-- /wp:heading --><!-- wp:categories /--></div><!-- /wp:group -->\";}s:12:\"_multiwidget\";i:1;}', 'auto'),
-(108, 'sidebars_widgets', 'a:17:{s:19:\"wp_inactive_widgets\";a:0:{}s:16:\"header-offcanvas\";a:0:{}s:16:\"header-widgets-1\";a:0:{}s:16:\"header-widgets-2\";a:0:{}s:28:\"front-page-section-1-content\";a:0:{}s:34:\"front-page-section-1-right-sidebar\";a:3:{i:0;s:7:\"block-2\";i:1;s:7:\"block-3\";i:2;s:7:\"block-4\";}s:28:\"front-page-section-2-content\";a:0:{}s:34:\"front-page-section-2-right-sidebar\";a:2:{i:0;s:7:\"block-5\";i:1;s:7:\"block-6\";}s:28:\"front-page-section-3-content\";a:0:{}s:34:\"front-page-section-3-right-sidebar\";a:0:{}s:20:\"general-left-sidebar\";a:0:{}s:21:\"general-right-sidebar\";a:0:{}s:16:\"footer-widgets-1\";a:0:{}s:16:\"footer-widgets-2\";a:0:{}s:16:\"footer-widgets-3\";a:0:{}s:16:\"footer-widgets-4\";a:0:{}s:13:\"array_version\";i:3;}', 'auto'),
+(107, 'widget_block', 'a:9:{i:2;a:1:{s:7:\"content\";s:19:\"<!-- wp:search /-->\";}i:3;a:1:{s:7:\"content\";s:157:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Pos-pos Terbaru</h2><!-- /wp:heading --><!-- wp:latest-posts /--></div><!-- /wp:group -->\";}i:4;a:1:{s:7:\"content\";s:228:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Komentar Terbaru</h2><!-- /wp:heading --><!-- wp:latest-comments {\"displayAvatar\":false,\"displayDate\":false,\"displayExcerpt\":false} /--></div><!-- /wp:group -->\";}i:5;a:1:{s:7:\"content\";s:143:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Arsip</h2><!-- /wp:heading --><!-- wp:archives /--></div><!-- /wp:group -->\";}i:6;a:1:{s:7:\"content\";s:148:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Kategori</h2><!-- /wp:heading --><!-- wp:categories /--></div><!-- /wp:group -->\";}s:12:\"_multiwidget\";i:1;i:8;a:1:{s:7:\"content\";s:59:\"<!-- wp:paragraph -->\n<p>Beranda</p>\n<!-- /wp:paragraph -->\";}i:9;a:1:{s:7:\"content\";s:60:\"<!-- wp:paragraph -->\n<p>About Me</p>\n<!-- /wp:paragraph -->\";}i:10;a:1:{s:7:\"content\";s:62:\"<!-- wp:paragraph -->\n<p>Contact Us</p>\n<!-- /wp:paragraph -->\";}}', 'on'),
+(108, 'sidebars_widgets', 'a:17:{s:19:\"wp_inactive_widgets\";a:0:{}s:16:\"header-offcanvas\";a:3:{i:0;s:7:\"block-8\";i:1;s:7:\"block-9\";i:2;s:8:\"block-10\";}s:16:\"header-widgets-1\";a:0:{}s:16:\"header-widgets-2\";a:0:{}s:28:\"front-page-section-1-content\";a:0:{}s:34:\"front-page-section-1-right-sidebar\";a:3:{i:0;s:7:\"block-2\";i:1;s:7:\"block-3\";i:2;s:7:\"block-4\";}s:28:\"front-page-section-2-content\";a:0:{}s:34:\"front-page-section-2-right-sidebar\";a:2:{i:0;s:7:\"block-5\";i:1;s:7:\"block-6\";}s:28:\"front-page-section-3-content\";a:0:{}s:34:\"front-page-section-3-right-sidebar\";a:0:{}s:20:\"general-left-sidebar\";a:0:{}s:21:\"general-right-sidebar\";a:0:{}s:16:\"footer-widgets-1\";a:0:{}s:16:\"footer-widgets-2\";a:0:{}s:16:\"footer-widgets-3\";a:0:{}s:16:\"footer-widgets-4\";a:0:{}s:13:\"array_version\";i:3;}', 'on'),
 (109, 'widget_pages', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'auto'),
 (110, 'widget_calendar', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'auto'),
 (111, 'widget_archives', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'auto'),
@@ -232,11 +232,11 @@ INSERT INTO `wpl_options` (`option_id`, `option_name`, `option_value`, `autoload
 (127, '_transient_wp_styles_for_blocks', 'a:2:{s:4:\"hash\";s:32:\"f64272df27bcd6106b3cd0ff1017dc1c\";s:6:\"blocks\";a:9:{s:32:\"832dc2d864d79097d8b8b493ad93453b\";s:0:\"\";s:32:\"45d3e0c4afcbd8cf25cb1ba51abfb3d7\";s:46:\":root :where(.wp-block-icon svg){width: 24px;}\";s:32:\"feca6e996f694be2d29599793228e0d7\";s:0:\"\";s:32:\"5eef131663eddaf830554df656fc2968\";s:0:\"\";s:32:\"c99c05932c6685777ec5b856698fcc7d\";s:0:\"\";s:32:\"dec8d648f30b13caec8e61374591787d\";s:0:\"\";s:32:\"6c35533f7a92cce94808323603db9fc8\";s:0:\"\";s:32:\"6a0505cd5c78a87ed77570cda43c1132\";s:0:\"\";s:32:\"25a66f156386551185570f72a9f7d44e\";s:69:\":root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}\";}}', 'on'),
 (129, 'recovery_keys', 'a:0:{}', 'off'),
 (137, '_site_transient_timeout_browser_5d0dd425008d7328cff9cce489fb55f7', '1794726011', 'off'),
-(138, '_site_transient_browser_5d0dd425008d7328cff9cce489fb55f7', 'a:10:{s:4:\"name\";s:6:\"Chrome\";s:7:\"version\";s:9:\"156.0.0.0\";s:8:\"platform\";s:7:\"Windows\";s:10:\"update_url\";s:29:\"https://www.google.com/chrome\";s:7:\"img_src\";s:43:\"http://s.w.org/images/browsers/chrome.png?1\";s:11:\"img_src_ssl\";s:44:\"https://s.w.org/images/browsers/chrome.png?1\";s:15:\"current_version\";s:2:\"18\";s:7:\"upgrade\";b:0;s:8:\"insecure\";b:0;s:6:\"mobile\";b:0;}', 'off'),
+(138, '_site_transient_browser_5d0dd425008d7328cff9cce489fb55f7', 'a:10:{s:4:\"name\";s:6:\"Chrome\";s:7:\"version\";s:9:\"156.0.0.0\";s:8:\"platform\";s:7:\"Windows\";s:10:\"update_url\";s:29:\"https://www.google.com/chrome\";s:7:\"img_src\";s:43:\"http://s.w.org/images/browsers/chrome.png?1\";s:11:\"img_src_ssl\";s:44:\"https://s.w.org/images/browsers/chrome.png?1\";s:15:\"current_version\";s:2:\"18\";s:7:\"upgrade\";b:0;s:8:\"insecure\";b:0;s:6:\"mobile\";b:0;}', 'off');
+INSERT INTO `wpl_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
 (139, '_site_transient_timeout_php_check_da775d00ae55849f14f81cf79fc50d46', '1794726012', 'off'),
 (140, '_site_transient_php_check_da775d00ae55849f14f81cf79fc50d46', 'a:5:{s:19:\"recommended_version\";s:3:\"8.3\";s:15:\"minimum_version\";s:3:\"7.4\";s:12:\"is_supported\";b:0;s:9:\"is_secure\";b:1;s:13:\"is_acceptable\";b:1;}', 'off'),
-(142, '_site_transient_timeout_community-events-d41d8cd98f00b204e9800998ecf8427e', '1794232960', 'off');
-INSERT INTO `wpl_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
+(142, '_site_transient_timeout_community-events-d41d8cd98f00b204e9800998ecf8427e', '1794235547', 'off'),
 (143, '_site_transient_community-events-d41d8cd98f00b204e9800998ecf8427e', 'a:4:{s:9:\"sandboxed\";b:0;s:5:\"error\";N;s:8:\"location\";a:1:{s:2:\"ip\";b:0;}s:6:\"events\";a:2:{i:0;a:10:{s:4:\"type\";s:8:\"wordcamp\";s:5:\"title\";s:58:\"WordPress Campus Connect SMK Tunas Pembangunan 2 Surakarta\";s:3:\"url\";s:58:\"https://events.wordpress.org/campusconnect/2026/smktp2ska/\";s:6:\"meetup\";s:0:\"\";s:10:\"meetup_url\";s:0:\"\";s:4:\"date\";s:19:\"2026-11-25 00:00:00\";s:8:\"end_date\";s:19:\"2026-11-25 00:00:00\";s:20:\"start_unix_timestamp\";i:1795539600;s:18:\"end_unix_timestamp\";i:1795539600;s:8:\"location\";a:4:{s:8:\"location\";s:20:\"Surakarta, Indonesia\";s:7:\"country\";s:2:\"ID\";s:8:\"latitude\";d:-7.5518735;s:9:\"longitude\";d:110.8112239;}}i:1;a:10:{s:4:\"type\";s:8:\"wordcamp\";s:5:\"title\";s:49:\"WordPress Campus Connect Universitas Putra Bangsa\";s:3:\"url\";s:52:\"https://events.wordpress.org/campusconnect/2026/upb/\";s:6:\"meetup\";s:0:\"\";s:10:\"meetup_url\";s:0:\"\";s:4:\"date\";s:19:\"2026-11-28 00:00:00\";s:8:\"end_date\";s:19:\"2026-11-28 00:00:00\";s:20:\"start_unix_timestamp\";i:1795798800;s:18:\"end_unix_timestamp\";i:1795798800;s:8:\"location\";a:4:{s:8:\"location\";s:18:\"Kebumen, Indonesia\";s:7:\"country\";s:2:\"ID\";s:8:\"latitude\";d:-7.6760082;s:9:\"longitude\";d:109.6466944;}}}}', 'off'),
 (144, 'can_compress_scripts', '1', 'on'),
 (147, '_site_transient_timeout_feed_mod_9bbd59226dc36b9b26cd43f15694c5c3', '1794214218', 'off'),
@@ -292,7 +292,7 @@ INSERT INTO `wpl_options` (`option_id`, `option_name`, `option_value`, `autoload
 (299, '_site_transient_theme_roots', 'a:4:{s:15:\"news-magazine-x\";s:7:\"/themes\";s:16:\"twentytwentyfive\";s:7:\"/themes\";s:16:\"twentytwentyfour\";s:7:\"/themes\";s:17:\"twentytwentythree\";s:7:\"/themes\";}', 'off'),
 (303, '_site_transient_update_themes', 'O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1794191945;s:7:\"checked\";a:4:{s:15:\"news-magazine-x\";s:6:\"1.2.59\";s:16:\"twentytwentyfive\";s:3:\"1.5\";s:16:\"twentytwentyfour\";s:3:\"1.6\";s:17:\"twentytwentythree\";s:3:\"1.7\";}s:8:\"response\";a:0:{}s:9:\"no_update\";a:4:{s:15:\"news-magazine-x\";a:6:{s:5:\"theme\";s:15:\"news-magazine-x\";s:11:\"new_version\";s:6:\"1.2.59\";s:3:\"url\";s:45:\"https://wordpress.org/themes/news-magazine-x/\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/theme/news-magazine-x.1.2.59.zip\";s:8:\"requires\";s:3:\"4.7\";s:12:\"requires_php\";s:3:\"7.4\";}s:16:\"twentytwentyfive\";a:6:{s:5:\"theme\";s:16:\"twentytwentyfive\";s:11:\"new_version\";s:3:\"1.5\";s:3:\"url\";s:46:\"https://wordpress.org/themes/twentytwentyfive/\";s:7:\"package\";s:62:\"https://downloads.wordpress.org/theme/twentytwentyfive.1.5.zip\";s:8:\"requires\";s:3:\"6.7\";s:12:\"requires_php\";s:3:\"7.2\";}s:16:\"twentytwentyfour\";a:6:{s:5:\"theme\";s:16:\"twentytwentyfour\";s:11:\"new_version\";s:3:\"1.6\";s:3:\"url\";s:46:\"https://wordpress.org/themes/twentytwentyfour/\";s:7:\"package\";s:62:\"https://downloads.wordpress.org/theme/twentytwentyfour.1.6.zip\";s:8:\"requires\";s:3:\"6.4\";s:12:\"requires_php\";s:3:\"7.0\";}s:17:\"twentytwentythree\";a:6:{s:5:\"theme\";s:17:\"twentytwentythree\";s:11:\"new_version\";s:3:\"1.7\";s:3:\"url\";s:47:\"https://wordpress.org/themes/twentytwentythree/\";s:7:\"package\";s:63:\"https://downloads.wordpress.org/theme/twentytwentythree.1.7.zip\";s:8:\"requires\";s:3:\"6.1\";s:12:\"requires_php\";s:3:\"5.6\";}}s:12:\"translations\";a:1:{i:0;a:7:{s:4:\"type\";s:5:\"theme\";s:4:\"slug\";s:15:\"news-magazine-x\";s:8:\"language\";s:5:\"id_ID\";s:7:\"version\";s:6:\"1.2.59\";s:7:\"updated\";s:19:\"2025-03-20 15:44:12\";s:7:\"package\";s:82:\"https://downloads.wordpress.org/translation/theme/news-magazine-x/1.2.59/id_ID.zip\";s:10:\"autoupdate\";b:1;}}}', 'off'),
 (304, 'current_theme', 'News Magazine X', 'auto'),
-(305, 'theme_mods_news-magazine-x', 'a:4:{i:0;b:0;s:18:\"nav_menu_locations\";a:0:{}s:18:\"custom_css_post_id\";i:-1;s:11:\"custom_logo\";i:40;}', 'on'),
+(305, 'theme_mods_news-magazine-x', 'a:4:{i:0;b:0;s:18:\"nav_menu_locations\";a:3:{s:7:\"primary\";i:11;s:9:\"secondary\";i:0;s:6:\"footer\";i:0;}s:18:\"custom_css_post_id\";i:-1;s:11:\"custom_logo\";i:40;}', 'on'),
 (306, 'theme_switched', '', 'auto'),
 (307, 'newsx_theme_installed_time', '1794191946', 'auto'),
 (308, 'widget_newsx_heading', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'auto'),
@@ -312,7 +312,9 @@ INSERT INTO `wpl_options` (`option_id`, `option_name`, `option_value`, `autoload
 (322, '_site_transient_kirki_googlefonts_4347b5bbc16ca4d6e6b9000966ba73a2', 'a:4:{i:0;s:6:\"Roboto\";i:1;s:9:\"Open Sans\";i:2;s:6:\"Oxygen\";i:3;s:21:\"Encode Sans Condensed\";}', 'off'),
 (326, '_site_transient_timeout_kirki_googlefont_names_cache', '1794195558', 'off'),
 (327, '_site_transient_kirki_googlefont_names_cache', 'a:4:{i:0;s:6:\"Roboto\";i:1;s:9:\"Open Sans\";i:2;s:6:\"Oxygen\";i:3;s:21:\"Encode Sans Condensed\";}', 'off'),
-(328, 'newsx_options', 'a:1:{s:10:\"logo_width\";a:1:{s:7:\"desktop\";s:3:\"140\";}}', 'on');
+(328, 'newsx_options', 'a:1:{s:10:\"logo_width\";a:1:{s:7:\"desktop\";s:3:\"140\";}}', 'on'),
+(329, '_transient_newsx_admin_notice_welcome', '1', 'on'),
+(330, 'nav_menu_options', 'a:2:{i:0;b:0;s:8:\"auto_add\";a:0:{}}', 'off');
 
 -- --------------------------------------------------------
 
@@ -406,7 +408,33 @@ INSERT INTO `wpl_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALU
 (140, 58, '_wp_page_template', 'default'),
 (141, 62, '_edit_lock', '1794192080:1'),
 (142, 62, '_wp_trash_meta_status', 'publish'),
-(143, 62, '_wp_trash_meta_time', '1794192094');
+(143, 62, '_wp_trash_meta_time', '1794192094'),
+(144, 64, '_wp_trash_meta_status', 'publish'),
+(145, 64, '_wp_trash_meta_time', '1794192425'),
+(146, 65, '_menu_item_type', 'post_type'),
+(147, 65, '_menu_item_menu_item_parent', '0'),
+(148, 65, '_menu_item_object_id', '17'),
+(149, 65, '_menu_item_object', 'page'),
+(150, 65, '_menu_item_target', ''),
+(151, 65, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(152, 65, '_menu_item_xfn', ''),
+(153, 65, '_menu_item_url', ''),
+(155, 66, '_menu_item_type', 'post_type'),
+(156, 66, '_menu_item_menu_item_parent', '0'),
+(157, 66, '_menu_item_object_id', '58'),
+(158, 66, '_menu_item_object', 'page'),
+(159, 66, '_menu_item_target', ''),
+(160, 66, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(161, 66, '_menu_item_xfn', ''),
+(162, 66, '_menu_item_url', ''),
+(164, 67, '_menu_item_type', 'post_type'),
+(165, 67, '_menu_item_menu_item_parent', '0'),
+(166, 67, '_menu_item_object_id', '47'),
+(167, 67, '_menu_item_object', 'page'),
+(168, 67, '_menu_item_target', ''),
+(169, 67, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(170, 67, '_menu_item_xfn', ''),
+(171, 67, '_menu_item_url', '');
 
 -- --------------------------------------------------------
 
@@ -508,7 +536,12 @@ INSERT INTO `wpl_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `pos
 (59, 1, '2026-11-09 01:50:46', '2026-11-09 01:50:46', '<!-- wp:paragraph -->\n<p>Jika pembaca ingin memberikan saran bisa menghubungi saya dengan platform dibawah ini yaaa:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Email: fadilnuzul313@gmail.com</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Instagram: @ZullPuadill</p>\n<!-- /wp:paragraph -->', 'Contact Us', '', 'inherit', 'closed', 'closed', '', '58-revision-v1', '', '', '2026-11-09 01:50:46', '2026-11-09 01:50:46', '', 58, 'http://localhost/literasi/?p=59', 0, 'revision', '', 0),
 (60, 1, '2026-11-09 01:56:29', '2026-11-09 01:56:29', '<!-- wp:cover {\"overlayColor\":\"base\",\"isUserOverlayColor\":true,\"minHeight\":100,\"minHeightUnit\":\"vh\",\"isDark\":false,\"metadata\":{\"categories\":[\"twentytwentyfive_page\",\"about\",\"featured\"],\"patternName\":\"twentytwentyfive/page-cv-bio\",\"name\":\"CV/bio\"},\"align\":\"full\",\"style\":{\"spacing\":{\"padding\":{\"right\":\"var:preset|spacing|50\",\"left\":\"var:preset|spacing|50\",\"top\":\"var:preset|spacing|60\",\"bottom\":\"var:preset|spacing|60\"},\"margin\":{\"top\":\"0\",\"bottom\":\"0\"}},\"elements\":{\"link\":{\"color\":{\"text\":\"var:preset|color|contrast\"}}}},\"textColor\":\"contrast\",\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-cover alignfull is-light has-contrast-color has-text-color has-link-color\" style=\"margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50);min-height:100vh\"><span aria-hidden=\"true\" class=\"wp-block-cover__background has-base-background-color has-background-dim-100 has-background-dim\"></span><div class=\"wp-block-cover__inner-container\"><!-- wp:columns {\"align\":\"wide\",\"style\":{\"spacing\":{\"blockGap\":{\"top\":\"var:preset|spacing|60\",\"left\":\"var:preset|spacing|80\"}}}} -->\n<div class=\"wp-block-columns alignwide\"><!-- wp:column {\"width\":\"65%\"} -->\n<div class=\"wp-block-column\" style=\"flex-basis:65%\"><!-- wp:paragraph {\"className\":\"is-style-text-subtitle\"} -->\n<p class=\"is-style-text-subtitle\">Haloo, Saya Muhammad Nuzul Fadil</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Selamat datang di situs website saya! Saya adalah seorang mahasiswa yang berdomisili Surabaya. Saya memiliki ketertarikan dalam membangun dan mengembangkan digital yang lebih fungsional, responsif, dan mudah digunakan.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"className\":\"is-style-text-subtitle\"} -->\n<p class=\"is-style-text-subtitle\">Perjalanan Saya</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Ketertarikan saya di dunia teknologi dimulai sejak saya berumur 13 tahun dan sedang menduduki kelas 1 SMP. Sejak saat itu, saya terus mengeksplorasi berbagai teknologi terbaru.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"className\":\"is-style-text-subtitle\"} -->\n<p class=\"is-style-text-subtitle\">Visi &amp; Tujuan</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Situs web ini dibuat sebagai wawasan tentang berita-berita hoaks yang sedang terjadi pada tahun ini. Situs web ini bukan hanya menampilkan berita hoaks saja tapi juga menampilkan bukti konkret tentang berita tersebut.</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"width\":\"35%\"} -->\n<div class=\"wp-block-column\" style=\"flex-basis:35%\"><!-- wp:group {\"layout\":{\"type\":\"flex\",\"orientation\":\"vertical\",\"justifyContent\":\"stretch\",\"flexWrap\":\"nowrap\"}} -->\n<div class=\"wp-block-group\"><!-- wp:image {\"id\":48,\"aspectRatio\":\"3/4\",\"scale\":\"cover\",\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full\"><img src=\"http://localhost/literasi/wp-content/uploads/2026/11/Ini-Bukan-AI.png\" alt=\"\" class=\"wp-image-48\" style=\"aspect-ratio:3/4;object-fit:cover\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph {\"style\":{\"typography\":{\"lineHeight\":\"1.2\",\"textAlign\":\"right\"}},\"fontSize\":\"x-large\"} -->\n<p class=\"has-text-align-right has-x-large-font-size\" style=\"line-height:1.2\"></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:group --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns --></div></div>\n<!-- /wp:cover -->', 'About Me', '', 'inherit', 'closed', 'closed', '', '47-revision-v1', '', '', '2026-11-09 01:56:29', '2026-11-09 01:56:29', '', 47, 'http://localhost/literasi/?p=60', 0, 'revision', '', 0),
 (61, 1, '2026-11-09 02:01:38', '2026-11-09 02:01:38', '<!-- wp:navigation-link {\"label\":\"Beranda\",\"type\":\"page\",\"id\":17,\"url\":\"http://localhost/literasi/berita-hoaks-di-indonesia/\",\"kind\":\"post-type\",\"metadata\":{\"bindings\":{\"url\":{\"source\":\"core/post-data\",\"args\":{\"field\":\"link\"}}}}} /-->\n\n<!-- wp:navigation-link {\"label\":\"About Me\",\"type\":\"page\",\"id\":58,\"url\":\"http://localhost/literasi/contact-us/\",\"kind\":\"post-type\",\"metadata\":{\"bindings\":{\"url\":{\"source\":\"core/post-data\",\"args\":{\"field\":\"link\"}}}}} /-->\n\n<!-- wp:navigation-link {\"label\":\"Contact Us\",\"type\":\"page\",\"id\":47,\"url\":\"http://localhost/literasi/tentang-saya/\",\"kind\":\"post-type\",\"metadata\":{\"bindings\":{\"url\":{\"source\":\"core/post-data\",\"args\":{\"field\":\"link\"}}}}} /-->', 'Navigasi', '', 'inherit', 'closed', 'closed', '', '4-revision-v1', '', '', '2026-11-09 02:01:38', '2026-11-09 02:01:38', '', 4, 'http://localhost/literasi/?p=61', 0, 'revision', '', 0),
-(62, 1, '2026-11-09 02:41:34', '2026-11-09 02:41:34', '{\n    \"newsx_options[logo_width][desktop]\": {\n        \"value\": \"140\",\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2026-11-09 02:40:20\"\n    },\n    \"news-magazine-x::custom_logo\": {\n        \"value\": 40,\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2026-11-09 02:41:20\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', 'c8b1ef33-752b-47fb-898a-7906cbb42b97', '', '', '2026-11-09 02:41:34', '2026-11-09 02:41:34', '', 0, 'http://localhost/literasi/?p=62', 0, 'customize_changeset', '', 0);
+(62, 1, '2026-11-09 02:41:34', '2026-11-09 02:41:34', '{\n    \"newsx_options[logo_width][desktop]\": {\n        \"value\": \"140\",\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2026-11-09 02:40:20\"\n    },\n    \"news-magazine-x::custom_logo\": {\n        \"value\": 40,\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2026-11-09 02:41:20\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', 'c8b1ef33-752b-47fb-898a-7906cbb42b97', '', '', '2026-11-09 02:41:34', '2026-11-09 02:41:34', '', 0, 'http://localhost/literasi/?p=62', 0, 'customize_changeset', '', 0),
+(63, 1, '2026-11-09 02:45:29', '2026-11-09 02:45:29', '{\"version\": 3, \"isGlobalStylesUserThemeJSON\": true }', 'Custom Styles', '', 'publish', 'closed', 'closed', '', 'wp-global-styles-news-magazine-x', '', '', '2026-11-09 02:45:29', '2026-11-09 02:45:29', '', 0, 'http://localhost/literasi/2026/11/09/wp-global-styles-news-magazine-x/', 0, 'wp_global_styles', '', 0),
+(64, 1, '2026-11-09 02:47:05', '2026-11-09 02:47:05', '{\n    \"sidebars_widgets[header-offcanvas]\": {\n        \"value\": [\n            \"block-8\",\n            \"block-9\",\n            \"block-10\"\n        ],\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2026-11-09 02:47:05\"\n    },\n    \"widget_block[8]\": {\n        \"value\": {\n            \"raw_instance\": {\n                \"content\": \"<!-- wp:paragraph -->\\n<p>Beranda</p>\\n<!-- /wp:paragraph -->\"\n            }\n        },\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2026-11-09 02:47:05\"\n    },\n    \"widget_block[9]\": {\n        \"value\": {\n            \"raw_instance\": {\n                \"content\": \"<!-- wp:paragraph -->\\n<p>About Me</p>\\n<!-- /wp:paragraph -->\"\n            }\n        },\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2026-11-09 02:47:05\"\n    },\n    \"widget_block[10]\": {\n        \"value\": {\n            \"raw_instance\": {\n                \"content\": \"<!-- wp:paragraph -->\\n<p>Contact Us</p>\\n<!-- /wp:paragraph -->\"\n            }\n        },\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2026-11-09 02:47:05\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', 'f320282c-f97b-4db7-bfc7-cc2778e1e389', '', '', '2026-11-09 02:47:05', '2026-11-09 02:47:05', '', 0, 'http://localhost/literasi/2026/11/09/f320282c-f97b-4db7-bfc7-cc2778e1e389/', 0, 'customize_changeset', '', 0),
+(65, 1, '2026-11-09 02:49:57', '2026-11-09 02:49:57', ' ', '', '', 'publish', 'closed', 'closed', '', '65', '', '', '2026-11-09 02:49:57', '2026-11-09 02:49:57', '', 0, 'http://localhost/literasi/?p=65', 1, 'nav_menu_item', '', 0),
+(66, 1, '2026-11-09 02:49:57', '2026-11-09 02:49:57', ' ', '', '', 'publish', 'closed', 'closed', '', '66', '', '', '2026-11-09 02:49:57', '2026-11-09 02:49:57', '', 0, 'http://localhost/literasi/?p=66', 2, 'nav_menu_item', '', 0),
+(67, 1, '2026-11-09 02:49:57', '2026-11-09 02:49:57', ' ', '', '', 'publish', 'closed', 'closed', '', '67', '', '', '2026-11-09 02:49:57', '2026-11-09 02:49:57', '', 0, 'http://localhost/literasi/?p=67', 3, 'nav_menu_item', '', 0);
 
 -- --------------------------------------------------------
 
@@ -549,7 +582,9 @@ INSERT INTO `wpl_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
 (6, 'Berita Hoaks', 'berita-hoaks', 0),
 (7, 'BPJS Kesehatan', 'bpjs-kesehatan', 0),
 (8, 'Kemenaker', 'kemenaker', 0),
-(9, 'BBM', 'bbm', 0);
+(9, 'BBM', 'bbm', 0),
+(10, 'news-magazine-x', 'news-magazine-x', 0),
+(11, 'Menu', 'menu', 0);
 
 -- --------------------------------------------------------
 
@@ -582,7 +617,11 @@ INSERT INTO `wpl_term_relationships` (`object_id`, `term_taxonomy_id`, `term_ord
 (29, 3, 0),
 (29, 4, 0),
 (29, 6, 0),
-(29, 9, 0);
+(29, 9, 0),
+(63, 10, 0),
+(65, 11, 0),
+(66, 11, 0),
+(67, 11, 0);
 
 -- --------------------------------------------------------
 
@@ -612,7 +651,9 @@ INSERT INTO `wpl_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `des
 (6, 6, 'post_tag', '', 0, 2),
 (7, 7, 'post_tag', '', 0, 1),
 (8, 8, 'post_tag', '', 0, 1),
-(9, 9, 'post_tag', '', 0, 1);
+(9, 9, 'post_tag', '', 0, 1),
+(10, 10, 'wp_theme', '', 0, 1),
+(11, 11, 'nav_menu', '', 0, 3);
 
 -- --------------------------------------------------------
 
@@ -652,7 +693,10 @@ INSERT INTO `wpl_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VAL
 (18, 1, 'wpl_user-settings', 'libraryContent=browse'),
 (19, 1, 'wpl_user-settings-time', '1794121207'),
 (20, 1, 'wpl_dashboard_quick_press_last_post_id', '5'),
-(21, 1, 'wpl_persisted_preferences', 'a:5:{s:4:\"core\";a:3:{s:26:\"isComplementaryAreaVisible\";b:1;s:10:\"openPanels\";a:3:{i:0;s:11:\"post-status\";i:1;s:23:\"taxonomy-panel-post_tag\";i:2;s:23:\"taxonomy-panel-category\";}s:24:\"enableChoosePatternModal\";b:1;}s:14:\"core/edit-site\";a:1:{s:12:\"welcomeGuide\";b:0;}s:9:\"_modified\";s:24:\"2026-11-09T02:00:49.555Z\";s:14:\"core/edit-post\";a:1:{s:12:\"welcomeGuide\";b:0;}s:12:\"media-editor\";a:1:{s:26:\"isComplementaryAreaVisible\";b:1;}}');
+(21, 1, 'wpl_persisted_preferences', 'a:6:{s:4:\"core\";a:3:{s:26:\"isComplementaryAreaVisible\";b:1;s:10:\"openPanels\";a:3:{i:0;s:11:\"post-status\";i:1;s:23:\"taxonomy-panel-post_tag\";i:2;s:23:\"taxonomy-panel-category\";}s:24:\"enableChoosePatternModal\";b:1;}s:14:\"core/edit-site\";a:1:{s:12:\"welcomeGuide\";b:0;}s:9:\"_modified\";s:24:\"2026-11-09T02:46:27.216Z\";s:14:\"core/edit-post\";a:1:{s:12:\"welcomeGuide\";b:0;}s:12:\"media-editor\";a:1:{s:26:\"isComplementaryAreaVisible\";b:1;}s:22:\"core/customize-widgets\";a:1:{s:12:\"welcomeGuide\";b:0;}}'),
+(22, 1, 'managenav-menuscolumnshidden', 'a:5:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";i:4;s:15:\"title-attribute\";}'),
+(23, 1, 'metaboxhidden_nav-menus', 'a:1:{i:0;s:12:\"add-post_tag\";}'),
+(24, 1, 'nav_menu_recently_edited', '11');
 
 -- --------------------------------------------------------
 
@@ -811,19 +855,19 @@ ALTER TABLE `wpl_links`
 -- AUTO_INCREMENT untuk tabel `wpl_options`
 --
 ALTER TABLE `wpl_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=329;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=331;
 
 --
 -- AUTO_INCREMENT untuk tabel `wpl_postmeta`
 --
 ALTER TABLE `wpl_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=144;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=173;
 
 --
 -- AUTO_INCREMENT untuk tabel `wpl_posts`
 --
 ALTER TABLE `wpl_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=63;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=68;
 
 --
 -- AUTO_INCREMENT untuk tabel `wpl_termmeta`
@@ -835,19 +879,19 @@ ALTER TABLE `wpl_termmeta`
 -- AUTO_INCREMENT untuk tabel `wpl_terms`
 --
 ALTER TABLE `wpl_terms`
-  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT untuk tabel `wpl_term_taxonomy`
 --
 ALTER TABLE `wpl_term_taxonomy`
-  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT untuk tabel `wpl_usermeta`
 --
 ALTER TABLE `wpl_usermeta`
-  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT untuk tabel `wpl_users`
