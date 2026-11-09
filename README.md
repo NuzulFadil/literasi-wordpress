@@ -11,4 +11,4 @@ Tugas mata kuliah Literasi Digital.
    database
 4. Buka http://localhost/literasi
 ## Penulis
-Nama - NIM
+Muhammad Nuzul Fadil - 09020626073
